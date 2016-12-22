@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/estilo.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/geral.js"></script>
+      <ul id="slide-out" class="side-nav">
+        <li>
+          <div class="userView">
+            <a class="profileFoto" href="#!user"><img class="userFoto" src="css/images/montana.png"></a>
+            <a href="#!name"><span class="white-text name">Carlos Eduardo</span></a>
+            <a href="#!email"><span class="white-text email">carlos.eduardo@montana.com.br</span></a>
+          </div>
+        </li>
+        <li><a href="#!"><i class="material-icons">toc</i>Todos os pedidos</a></li>
+        <li><a href="#!"><i class="material-icons">done</i>Aguardando Check In</a></li>
+        <li><a href="#!"><i class="material-icons">thumb_up</i>Prontos</a></li>
+        <li><a href="#!"><i class="material-icons">done_all</i>Entregue</a></li>
+        <li><a href="#!"><i class="material-icons">cancel</i>Cancelados</a></li>
+        <li><a href="#!"><i class="material-icons">settings</i>Configurações</a></li>
+
+      </ul>
+      <nav class="navbar-fixed">
+        <div class="nav-wrapper blue-grey lighten-2">
+          <div class="">
+            <div class="nav-wrapper">
+                <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+                <img class="logoBot" src="css/images/profile.png" />      
+                <span class="nomeEmpresa"> BotCheff | Montana Grill</span>
+            </div>
+          </div>
+          <ul id="nav-mobile" class="right">
+            <li><a href="">Logout</a></li>
+          </ul>          
+        </div>
+                
+      </nav>
+
+      <div class="row">
+        <div class="col s6">
+
+          <div class="collection">
+            <a class="collection-item avatar">
+              <i class="material-icons circle ">done</i>
+              <strong>000792</strong>
+              <p>Roberto Carlos Alves <br>
+                 Aguardando Check In
+              </p>
+              <div class="secondary-content"><i class="material-icons">keyboard_arrow_right</i></div>
+            </a>
+            <a class="collection-item avatar">
+              <i class="material-icons circle red">cancel</i>
+              <strong>000793</strong>
+              <p>Eduardo Lima<br>
+                 Cancelado
+              </p>
+              <div class="secondary-content"><i class="material-icons">keyboard_arrow_right</i></div>              
+            </a>
+            <a class="collection-item avatar">
+              <i class="material-icons circle blue">thumb_up</i>
+              <strong>000794</strong>
+              <p>Ana Maria Santos<br>
+                 Aguardando Retirada
+              </p>
+              <div class="secondary-content"><i class="material-icons">keyboard_arrow_right</i></div>              
+            </a>
+            <a class="collection-item avatar">
+              <i class="material-icons circle green">done_all</i>
+              <strong>000795</strong>
+              <p>Flávio Lima<br>
+                 Entregue
+              </p>
+              <div class="secondary-content"><i class="material-icons">keyboard_arrow_right</i></div>              
+            </a> 
+            <a class="collection-item avatar">
+              <i class="material-icons circle ">done</i>
+              <strong>000795</strong>
+              <p>Mariana Faria<br>
+                 Aguardando Check In
+              </p>
+              <div class="secondary-content"><i class="material-icons">keyboard_arrow_right</i></div>              
+            </a> 
+            <a class="collection-item avatar">
+              <i class="material-icons circle ">done</i>
+              <strong>000795</strong>
+              <p>Thiago Costa Silva<br>
+                 Aguardando Check In
+              </p>
+              <div class="secondary-content"><i class="material-icons">keyboard_arrow_right</i></div>              
+            </a>            
+          </div>
+
+        </div>
+        <div class="col s6">
+
+          <div class="card grey lighten-3">
+            <div class="card-content">
+              <img class="circle fotoUser" src="css/images/profile.jpg" />    
+              <h4>000792</h4>
+              <h5>Roberto Carlos Alves</h5>
+              <ul class="collection">
+                <li class="collection-item">
+                  <span class="badge">R$ 20,00</span>        
+                  <span class="title">Grelhado - Bife a Cavalo</span>
+                  <p>1x</p>
+                </li>
+                <li class="collection-item">
+                  <span class="badge">R$ 20,00</span>        
+                  <span class="title">Grelhado - Filé de Frango</span>
+                  <p>1x</p>
+                </li>
+                <li class="collection-item">
+                  <span class="badge">R$ 20,00</span>
+                  <span class="title">Grelhado - Filé de Sobrecoxa</span>
+                  <p>1x</p>
+                </li>
+              </ul>
+              <h5 style="text-align:right;">Total: R$ 60,00</h5>
+            </div>
+            <div class="card-action" style="text-align:center;">
+              <a class="waves-effect waves-light btn-large red"><i class="material-icons right">cancel</i>Cancelar</a> 
+              <a class="waves-effect waves-light btn-large blue"><i class="material-icons right">thumb_up</i>Pronto</a> 
+              <a class="waves-effect waves-light btn-large green"><i class="material-icons right">done_all</i>Entregue</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </body>
+  </html>

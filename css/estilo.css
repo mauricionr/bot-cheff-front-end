@@ -1,0 +1,37 @@
+@import url('icon.css');
+
+.userView {
+	background: url(images/bg-login.png);
+}
+.profileFoto {
+	text-align: center;
+}
+.userFoto {
+	width: 200px;
+}
+
+.logoBot {
+    height: 50px;
+    margin: 7px;
+}
+
+.button-collapse {
+	display: block!important;
+}
+.logoBot {
+	float: left;
+}
+
+.nomeEmpresa{
+    display: block;
+    float: left;
+    font-size: 18px;
+}
+
+.fotoUser {
+	height: 70px;
+    float: right;
+}
+nav .nav-wrapper {
+	background-image: url(images/bg-login.png);
+}
